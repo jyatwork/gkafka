@@ -1,0 +1,11 @@
+# kafka
+kafka:
+    topic: testopic
+    key: 1
+    groupid: consumer
+    broker-list:
+        - 10.2.5.206:9092
+        - 10.2.5.207:9092
+        - 10.2.5.208:9092      
+        - 10.2.5.209:9092
+    enable: true #是否发布到kafka
